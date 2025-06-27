@@ -1,3 +1,6 @@
+link repositorio:<br>
+https://github.com/ViniciusKobs/learn_rabbitmq
+
 para instalar a biblioteca do amqp:<br>
 `composer install && composer dump-autoload`
 
