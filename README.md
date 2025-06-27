@@ -16,3 +16,5 @@ para produzir uma mensagem:<br>
 `php producertest.php mensagem idconsumidor`
 
 se os ids forem iguais o consumidor deve receber a mensagem enviada pelo produtor
+
+![image](https://github.com/user-attachments/assets/00c5f6fa-afe1-4bd7-b375-d5d6dd758994)
