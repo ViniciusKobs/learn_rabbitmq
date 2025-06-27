@@ -20,11 +20,11 @@ class QueueClientService implements QueueClientInterface
     function __construct() {
         // SUBSTITUIR PARA ENV
         $this->connection = new AMQPStreamConnection(
-            'localhost', // env('RABBITMQ_HOST', 'localhost'),
-            5672,        // env('RABBITMQ_PORT', 5672       ),
-            'server',    // env('RABBITMQ_USER', 'guest'    ),
-            'imply1234', // env('RABBITMQ_PASS', 'guest'    ),
-            '/'          // env('RABBITMQ_VHOST', '/'       ),
+            'jackal-01.rmq.cloudamqp.com',
+            5672,
+            'iybmnxuk',
+            'x5BrPkK0bCpRQYz3MBopGuFleTABQQAI',
+            'iybmnxuk'
         );
         $this->channel = $this->connection->channel();
     }
