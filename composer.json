@@ -5,6 +5,7 @@
     }
   },
   "require": {
-    "php-amqplib/php-amqplib": "v3.7.3"
+    "php-amqplib/php-amqplib": "v3.7.3",
+    "ext-amqp": "*"
   }
 }
